@@ -1,0 +1,4 @@
+This is a sample file
+part 1 : Init
+part 2 : run
+part 3 : terminate

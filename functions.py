@@ -24,3 +24,11 @@ print_a_line(currentLineNo,pFileActual)
 
 currentLineNo = currentLineNo + 1
 print_a_line(currentLineNo, pFileActual)
+
+def add(val1,val2):
+   print "Entered value1 :%d" % val1
+   print "Entered value2 :%d" % val2
+   return val1,val2,val1 +  val2
+
+firstno,secondno,addval = add(10,20)
+print "Sum is :%d and %d is %d" % (firstno,secondno,addval)

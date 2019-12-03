@@ -9,7 +9,7 @@ server = 'msazsp.database.windows.net'
 
 database = 'msazsp'
 username = 'msazsp'
-password = 'Psumit88@'
+password = ''
 driver= '{ODBC Driver 13 for SQL Server}'
 
 cnxn = pyodbc.connect('DRIVER='+driver+';PORT=1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
@@ -35,7 +35,7 @@ passw=9617231371
 server.login(user,passw)
 
 fromaddr = "Sumit"
-tolist = "Sumit.Pawar@netcracker.com"
+tolist = "psumit88@gmail.com"
 sub = "Microsoft Azure Database Data Retrieval."
 
 msg = email.MIMEMultipart.MIMEMultipart()

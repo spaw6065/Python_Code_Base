@@ -40,7 +40,7 @@ sub = "Microsoft Azure Database Data Retrieval."
 
 msg = email.MIMEMultipart.MIMEMultipart()
 msg['From'] = fromaddr
-msg['To'] = "Sumit.Pawar@netcracker.com"
+msg['To'] = "psumit88@gmail.com"
 msg['Subject'] = sub  
 
 msg.attach(MIMEText(body_text))

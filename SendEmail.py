@@ -18,7 +18,7 @@ sub = "Dummy"
 
 msg = email.MIMEMultipart.MIMEMultipart()
 msg['From'] = fromaddr
-msg['To'] = "Sumit.Pawar@netcracker.com"
+msg['To'] = "psumit88@gmail.com.com"
 msg['Subject'] = sub  
 body_txt = "Hello Sumit,\nHow are you ? \n\nRegards,\nSumit"
 msg.attach(MIMEText(body_txt))

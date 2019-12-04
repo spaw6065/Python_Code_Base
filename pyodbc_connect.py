@@ -30,19 +30,16 @@ server = smtplib.SMTP()
 server.connect(smtp_host,smtp_port)
 server.ehlo()
 server.starttls()
-user="psumit88@gmail.com"
 passw=9617231371
 server.login(user,passw)
 
 fromaddr = "Sumit"
-tolist = "psumit88@gmail.com"
 sub = "Microsoft Azure Database Data Retrieval."
 
 msg = email.MIMEMultipart.MIMEMultipart()
 msg['From'] = fromaddr
-msg['To'] = "psumit88@gmail.com"
 msg['Subject'] = sub  
 
-msg.attach(MIMEText(body_text))
+//msg.attach(MIMEText(body_text))
 
 server.sendmail(user,tolist,msg.as_string())
